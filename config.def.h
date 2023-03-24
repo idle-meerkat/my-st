@@ -123,6 +123,8 @@ static const char *colorname[] = {
 	[258] = "gray90",
 	[259] = "black", /* default foreground colour */
 	[260] = "white", /* default background colour */
+	[261] = "#055592", /* dark blue (cursor) */
+	[262] = "#5ac2db", /* blue (cursor) */
 };
 
 
@@ -132,8 +134,8 @@ static const char *colorname[] = {
  */
 unsigned int defaultfg = 259;
 unsigned int defaultbg = 260;
-unsigned int defaultcs = 256;
-static unsigned int defaultrcs = 257;
+unsigned int defaultcs = 262;
+static unsigned int defaultrcs = 261;
 
 /*
  * Default shape of cursor
